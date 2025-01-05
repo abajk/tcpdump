@@ -1331,6 +1331,7 @@ set(NETDISSECT_SOURCE_LIST_C
     print-geneve.c
     print-geonet.c
     print-gre.c
+    print-gswiptag.c
     print-hncp.c
     print-hsrp.c
     print-http.c

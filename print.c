@@ -92,6 +92,9 @@ static const struct printer printers[] = {
 #ifdef DLT_FRELAY
 	{ fr_if_print,		DLT_FRELAY },
 #endif
+#ifdef DLT_DSA_TAG_GSWIP
+	{ gswip_tag_if_print,	DLT_DSA_TAG_GSWIP },
+#endif
 #ifdef DLT_IEEE802_11
 	{ ieee802_11_if_print,	DLT_IEEE802_11},
 #endif
